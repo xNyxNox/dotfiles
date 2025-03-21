@@ -1,9 +1,9 @@
 # dotfiles
 
 ### Example Images
-![alt text](https://github.com/xNyxNox/dotfiles/tree/main/pictures/niri-monitor-1.png "Main Monitor in Niri")
+![niri example](https://github.com/xNyxNox/dotfiles/tree/main/pictures/niri-monitor-1.png "Main Monitor in Niri")
 
-![alt text](https://github.com/xNyxNox/dotfiles/tree/main/pictures/hyprland-monitors-both.png "Dual Monitors in Hyprland")
+![hyprland example](https://github.com/xNyxNox/dotfiles/tree/main/pictures/hyprland-monitors-both.png "Dual Monitors in Hyprland")
 
 ### Information
 A remote backup of my dotfiles.  Things are always changing, so I don't recommend pulling changes without checking first.  I typically use these on Arch, although most are distro agnostic.
