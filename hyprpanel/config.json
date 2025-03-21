@@ -1,0 +1,111 @@
+{
+  "bar.customModules.updates.pollingInterval": 1440000,
+  "theme.font.size": "0.9rem",
+  "theme.font.weight": 500,
+  "menus.transition": "crossfade",
+  "theme.bar.transparent": true,
+  "theme.bar.menus.monochrome": true,
+  "theme.bar.buttons.monochrome": true,
+  "theme.bar.buttons.background": "#000000",
+  "wallpaper.image": "/home/trent/Pictures/arch-wallpaper.png",
+  "theme.notification.background": "#000000",
+  "theme.notification.opacity": 70,
+  "bar.workspaces.show_numbered": true,
+  "theme.bar.floating": false,
+  "theme.bar.location": "top",
+  "bar.autoHide": "fullscreen",
+  "theme.bar.buttons.enableBorders": false,
+  "bar.workspaces.show_icons": false,
+  "bar.workspaces.workspaceMask": false,
+  "bar.workspaces.numbered_active_indicator": "underline",
+  "bar.battery.label": false,
+  "theme.bar.buttons.battery.enableBorder": false,
+  "bar.battery.hideLabelWhenFull": false,
+  "scalingPriority": "gdk",
+  "menus.media.noMediaText": "Silence",
+  "menus.clock.time.hideSeconds": false,
+  "menus.clock.weather.location": "Virginia",
+  "menus.dashboard.powermenu.avatar.name": "trent",
+  "menus.dashboard.shortcuts.enabled": true,
+  "menus.dashboard.powermenu.avatar.image": "/home/trent/Pictures/moon_nyx_logo.png",
+  "theme.bar.menus.menu.volume.scaling": 100,
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "cava",
+        "media",
+        "cava"
+      ],
+      "right": [
+        "volume",
+        "network",
+        "bluetooth",
+        "systray",
+        "clock",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "theme.bar.buttons.style": "default",
+  "theme.bar.buttons.text": "#c4a7e7",
+  "theme.bar.buttons.icon": "#c4a7e7",
+  "theme.bar.buttons.workspaces.active": "#9cced8",
+  "theme.bar.buttons.workspaces.occupied": "#c4a7e7",
+  "theme.bar.buttons.workspaces.numbered_active_underline_color": "#9cced8",
+  "theme.bar.buttons.workspaces.hover": "#ebbcba",
+  "menus.dashboard.shortcuts.left.shortcut1.command": "zen-browser",
+  "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Zen Browser",
+  "menus.dashboard.shortcuts.left.shortcut1.icon": "󰬡",
+  "menus.dashboard.shortcuts.left.shortcut3.command": "vesktop",
+  "theme.font.name": "SpaceMono Nerd Font Mono",
+  "theme.font.label": "SpaceMono Nerd Font Mono",
+  "theme.bar.buttons.workspaces.enableBorder": false,
+  "bar.workspaces.ignored": "-98",
+  "theme.bar.buttons.workspaces.available": "#c4a7e7",
+  "theme.bar.buttons.modules.cava.text": "#c4a7e7",
+  "theme.bar.buttons.modules.cava.icon": "#c4a7e7",
+  "bar.customModules.cava.showIcon": false,
+  "bar.customModules.cava.showActiveOnly": false,
+  "bar.customModules.cava.bars": 16,
+  "bar.customModules.cava.framerate": 60,
+  "bar.customModules.hypridle.pollingInterval": 4000,
+  "bar.customModules.cava.stereo": true,
+  "bar.customModules.cava.middleClick": "cavalier",
+  "theme.bar.buttons.modules.power.enableBorder": false,
+  "bar.customModules.cava.highCutoff": 10001
+}
