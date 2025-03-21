@@ -12,3 +12,7 @@ I will try to note any manual intervention required below:
 2. You must set the btop theme yourself.  You can either use the TUI to change the theme or simply change the path in btop.conf
 
 
+
+Notes:
+
+Waybar is vertical for use inside of Niri.  Hyprpanel is horizontal for use inside of hyprland.  Both *should* automatically launch when entering their respective session if installed.
