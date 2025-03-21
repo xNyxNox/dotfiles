@@ -51,7 +51,7 @@ hyprpanel
 
 Before loading into a window manager, be sure to review the keybinds.  In Niri, you can open a list of important keybinds by pressing Super+Shift+/ or Super+?.  In both, pressing Super+Enter will bring you into a terminal where you can browse the config in your text editor of choice.
 
-Waybar is vertical for use inside of Niri.  Hyprpanel is horizontal for use inside of hyprland.  Both *should* automatically launch when entering their respective session if installed.
+Waybar is vertical for use inside of Niri.  Hyprpanel is horizontal for use inside of hyprland.  Both *should* automatically launch when entering their respective session if installed.  There is a horizontal waybar included if you can't/don't want to install hyprpanel.  Simply copy the files from /waybar/horiz into /waybar.
 
 Most of my zsh config that I don't think would be applicable to others (such as aliases and env variables) is kept in ~/.zprofile which is not included in this repo.  Please keep in mind that you may need to do some alteration to yours.
 
