@@ -86,7 +86,7 @@ spawn-at-startup "swaync"
 
 //define things to happen at particular events
 switch-events {
-//lock screen with swaylock when lid close
+//lock screen with swaylock when lid close (laptop only)
 	lid-close { spawn "swaylock"; }
 }
 //environment variables
@@ -121,31 +121,27 @@ window-rule {
 	geometry-corner-radius 14
 	clip-to-geometry true
 }
-
 window-rule {
 	match is-focused=true
 	opacity 0.9
 }
-
-
 window-rule {
 	match is-focused=false
 	opacity 0.8
 }
-
-
 window-rule {
 	match app-id=r#"zen"#
 	opacity 1.0
 }
-
 window-rule {
 	match app-id=r#"zen"# title="^Picture-in-Picture$"
 	open-floating true
 	opacity 1.0
 }
 
+
 binds {
+	//binds to open apps
 	Mod+Q { close-window; }
 	Mod+Shift+Slash { show-hotkey-overlay; }
 	Mod+Return { spawn "kitty"; }
@@ -153,6 +149,7 @@ binds {
 	Mod+A { spawn "zen-browser"; }
 	Mod+G { spawn "niri_fuzzel_switcher"; }
 	Mod+T { spawn "thunar"; }
+	Mod+Shift+L { spawn "swaylock"; }
 
 	XF86AudioRaiseVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1+"; }
     	XF86AudioLowerVolume allow-when-locked=true { spawn "wpctl" "set-volume" "@DEFAULT_AUDIO_SINK@" "0.1-"; }

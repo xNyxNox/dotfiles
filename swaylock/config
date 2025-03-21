@@ -1,0 +1,5 @@
+daemonize
+image=~/.config/swaylock/bay.JPG
+scaling=fill
+font="SpaceMono Nerdfont Mono"
+
