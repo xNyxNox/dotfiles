@@ -24,26 +24,26 @@ I will try to note any manual intervention required below:
 
 List of packages I can remember (only install the ones you want):
 
-**Universal**: ```
+**Universal**: 
 btop
 kitty
 zsh
 powerlevel10k
 swaylock
-```
 
-**Niri**: ```
+
+**Niri**: 
 niri
 swaync
 waybar
 xwayland-satellite
 swww
-```
 
-**Hyprland**: ```
+
+**Hyprland**: 
 hyprland
 hyprpanel
-```
+
 
 ---
 
