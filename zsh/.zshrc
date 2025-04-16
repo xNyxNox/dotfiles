@@ -77,3 +77,4 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 
 export PATH="$PATH:$HOME/Documents/scripts"
+export PATH="$PATH:$HOME/.local/share/cargo/bin"
